@@ -1,9 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 body{
     background-image: url('https://github.com/rookiedev07/College_Project-/blob/main/534bae93-cd2b-4ce3-b1af-99dc5324eb69.jpeg?raw=true');
     background-repeat: no-repeat;
     background-size: cover;
+    height: max-content;
+    width: 90%;
 }
 ::-webkit-scrollbar{
     scrollbar-width: none;
@@ -17,17 +20,20 @@ header {
     font-family: "Merriweather", serif;
     font-weight: 900;
     font-style: normal; 
-    width: max-content;  
+    height: 20px;
+    width: 500px;  
     display: inline-block;
 }
-.navbar ul li:hover {
-    color: black !important;
-    background-color: greenyellow !important;
-    border-radius: 10px !important;
+.navbar ul li:hover {   
+    color: black;
+    border: 2px solid greenyellow;
+    border-radius: 10px;
+    padding: 4px;
 }
 ul{
-    margin-top: 3em;
-    font-size: 4em;
+    margin-top: 1em;
+    margin-left: -1.2em;
+    font-size: 1.1em;
 }
 li{
       display: inline-block;
@@ -40,21 +46,21 @@ li{
 .LOGO{
     display: inline-block;
     padding-top: 20px;
-    padding-left: 33em;
+    padding-left: 8em;
 }
 #g {
     color: greenyellow;
     font-family: "Protest Guerrilla";
-    letter-spacing: 14px;
-    font-size: 7em;
+    letter-spacing: 7px;
+    font-size: 1.8em;
     font-style: italic;
     display: inline;
 }
 
 h4 {
     float: right;
-    margin-right: 40px;
-    font-size: 5em;
+    margin-right: -5em;
+    font-size: 1.2em;
     color: rgb(255, 255, 255);
     transition: color 0.4s ease;
     cursor: pointer;
@@ -64,29 +70,28 @@ h4 {
 
 h4:hover {
     color: black;
-    background-color: greenyellow;
+    border: 2px solid greenyellow;
     border-radius: 10px;
     padding: 4px;
 }
 .quotes {
-    height: 200px;
-    width: 470px;
-    color: rgb(218, 216, 216);
-    margin-top: 16em;
-    margin-left: 3em;
-    font-size: 3em;
+    height: 100px;
+    width: 10px;
+    margin-top: 8em;
+    margin-left: 1em;
+    font-size: 1.35em;
 }
 #quoter {
-    color: rgb(139, 230, 3);
+    color: rgb(153, 255, 0);
     font-family: "Bodoni Moda SC";
-    font-size: 90px;
+    font-size: 1.3em;
     width: 30em;
 }
 .main-quote {
     font-family: "Bodoni Moda SC";
-    color: white;
-    font-size: 100px;
-    width: 20em;
+    color: rgb(255, 255, 255);
+    letter-spacing: 1px;
+    width: 22em;
 }
 #Re {
     opacity: 1;
@@ -94,32 +99,40 @@ h4:hover {
     animation-delay: 2.2s;
 }
 .reminder {
-    height: 600px;
-    width: 1200px;
+    height: 11em;
+    width: 20em;
     color: black;
     background-color: greenyellow;
     border-radius: 2.5em;
     margin-top: 8em;
-    margin-left: 3em;
+    margin-left: 2em;
     font-family: Arial, Helvetica, sans-serif;
     display: inline-block;
     font-style: italic;
-    font-size: 58px;
-    padding: 0.5em 1.2em;
+    font-size: 16px;
+    padding: 0.4em 0.8em;
+    text-wrap: wrap;
 }
 #Rheading {
     font-weight: bold;
     font-family: "Protest Guerrilla";
-    letter-spacing: 7px;
+    margin-left: 4px;
+    letter-spacing: 2px;
 }
 button{
     float: right;
     margin-top: 40vh;
-    margin-right: 1em;
+    margin-right: -5em;
+    margin-bottom: 2em;
     border-radius: 1em;
     padding: 1em;
     font-family: "Protest Guerrilla";
-    letter-spacing: 9px;
-    font-size: 70px;
+    letter-spacing: 2px;
+    font-size: 20px;
     background-color: greenyellow;
+    transition: color 0.4s ease;
+}
+button:hover{
+    background-color: black;
+    color: greenyellow;
 }
